@@ -474,7 +474,7 @@ final Node<K,V>[] resize() {
 }
 ```
 ### HashMap扩容图
-![HashMap扩容图](\hashMap扩容例图.png)
+![HashMap扩容图](https://github.com/yyrely/map_code/blob/master/hashMap%E6%89%A9%E5%AE%B9%E4%BE%8B%E5%9B%BE.png)
 
 ## 从HashMap中Get值
 ```java

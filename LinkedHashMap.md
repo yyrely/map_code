@@ -53,7 +53,7 @@ key: d,value: dd
 ```
 
 ## LinkedHashMap储存结构
-![LinkedHashMap储存结构](\LinkedHashMap储存结构.png)
+![LinkedHashMap储存结构](https://github.com/yyrely/map_code/blob/master/LinkedHashMap%E5%82%A8%E5%AD%98%E7%BB%93%E6%9E%84.png)
 
 ## 初始化LinkedHashMap
 ```java
