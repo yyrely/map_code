@@ -334,7 +334,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,boolean evict) {
 }
 ```
 ### 上面Node的存储结构
->![图片](\HashMap结构.png)
+>![图片](https://github.com/yyrely/map_code/blob/master/HashMap%E7%BB%93%E6%9E%84.png)
 
 ## 存储的Node数量大于临界值(扩容)
 ```java
