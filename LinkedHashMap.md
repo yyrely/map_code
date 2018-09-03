@@ -52,6 +52,9 @@ key: d,value: dd
 最新操作过的元素会排在最后面
 ```
 
+## LinkedHashMap储存结构
+![LinkedHashMap储存结构](\LinkedHashMap储存结构.png)
+
 ## 初始化LinkedHashMap
 ```java
 LinkedHashMap<String,String> map = new LinkedHashMap<>();
