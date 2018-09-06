@@ -47,7 +47,8 @@ public HashMap(int initialCapacity, float loadFactor) {
 //n >>> 8 和 n >>> 16 最后结果都是一样的
 //n : 15
 //最后返回的是16
-//找大于等于cap且最小的2的幂
+
+//找大于等于cap且最小的2的幂(大大提升了hash计算的效率)
 //cap - 1 操作是防止已经是2的幂,计算出来的结果会是原来的2倍(可带16,跳过cap - 1直接试)
 static final int tableSizeFor(int cap) {
     int n = cap - 1;
